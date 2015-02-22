@@ -1,0 +1,91 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"></head><body><b>Select your aspected month and year</b><br><br>
+<script type="text/javascript" src="demo_files/formload.js"></script>
+<script type="text/javascript">
+function view_cal(){
+    Apost_office_one='load_cal';//div name
+    var text_value="?";
+        text_value +="month" +"="+ document.getElementById('month').value + "&";
+        text_value +="year" +"="+ document.getElementById('year').value + "&";
+    var url="load_cal.php";
+    makeRequest(url, text_value);
+}
+</script>
+<select id="month" onchange="view_cal()">
+    <option selected="selected" value="0">Select Month</option>
+    <option value="1">January</option>
+    <option value="2">February</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">Ocotber</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+</select>
+<select id="year" onchange="view_cal()">
+    <option value="0">Select Year</option>
+    <option>2050</option><option>2049</option><option>2048</option><option>2047</option><option>2046</option><option>2045</option><option>2044</option><option>2043</option><option>2042</option><option>2041</option><option>2040</option><option>2039</option><option>2038</option><option>2037</option><option>2036</option><option>2035</option><option>2034</option><option>2033</option><option>2032</option><option>2031</option><option>2030</option><option>2029</option><option>2028</option><option>2027</option><option>2026</option><option>2025</option><option>2024</option><option>2023</option><option>2022</option><option>2021</option><option>2020</option><option>2019</option><option>2018</option><option>2017</option><option>2016</option><option>2015</option><option selected="selected">2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>2008</option><option>2007</option><option>2006</option><option>2005</option><option>2004</option><option>2003</option><option>2002</option><option>2001</option><option>2000</option><option>1999</option><option>1998</option><option>1997</option><option>1996</option><option>1995</option><option>1994</option><option>1993</option><option>1992</option><option>1991</option><option>1990</option><option>1989</option><option>1988</option><option>1987</option><option>1986</option><option>1985</option><option>1984</option><option>1983</option><option>1982</option><option>1981</option><option>1980</option><option>1979</option><option>1978</option><option>1977</option><option>1976</option><option>1975</option><option>1974</option><option>1973</option><option>1972</option><option>1971</option><option>1970</option><option>1969</option><option>1968</option><option>1967</option><option>1966</option><option>1965</option><option>1964</option><option>1963</option><option>1962</option><option>1961</option><option>1960</option><option>1959</option><option>1958</option><option>1957</option><option>1956</option><option>1955</option><option>1954</option><option>1953</option><option>1952</option><option>1951</option><option>1950</option></select>
+
+<div id="load_cal" style="margin-top: 5px;">
+<style type="text/css">
+    *{
+        font-family: arial;
+        font-size: 13px;
+    }
+    span#box{
+        width: 25px;
+        height: 20px;
+        border: 1px #D0D0D0 solid;
+        padding: 5px 3px ;
+        float: left;
+        text-align: center;
+    }   
+    .test{
+        float: left;
+        width: 100%;
+    }
+</style>
+<b>July - 2014</b><pre></pre><div class="test"><span id="box">Sat</span><span id="box">Sun</span><span id="box">Mon</span><span id="box">Tue</span><span id="box">Wed</span><span id="box">Thu</span><span id="box">Fri</span></div><span id="box"></span><span id="box"></span><span id="box"></span><span id="box" style="">1</span>
+<span id="box" style="">2</span>
+<span id="box" style="">3</span>
+<span id="box" style="">4</span>
+<span id="box" style="clear:both;">5</span>
+<span id="box" style="">6</span>
+<span id="box" style="">7</span>
+<span id="box" style="">8</span>
+<span id="box" style="">9</span>
+<span id="box" style="">10</span>
+<span id="box" style="">11</span>
+<span id="box" style="clear:both;">12</span>
+<span id="box" style="">13</span>
+<span id="box" style="">14</span>
+<span id="box" style="">15</span>
+<span id="box" style="">16</span>
+<span id="box" style="">17</span>
+<span id="box" style="">18</span>
+<span id="box" style="clear:both;background-color:darkseagreen;color:white;font-weight:bold;">19</span>
+<span id="box" style="">20</span>
+<span id="box" style="">21</span>
+<span id="box" style="">22</span>
+<span id="box" style="">23</span>
+<span id="box" style="">24</span>
+<span id="box" style="">25</span>
+<span id="box" style="clear:both;">26</span>
+<span id="box" style="">27</span>
+<span id="box" style="">28</span>
+<span id="box" style="">29</span>
+<span id="box" style="">30</span>
+<span id="box" style="">31</span>
+
+
+
+
+
+
+   
+</div>
+</body></html>
